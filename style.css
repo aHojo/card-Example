@@ -26,8 +26,8 @@ div.name {
 }
 
 ul {
-  float: right;
-  list-style: none;
+  /* float: right; */ /* DEMO */
+  /* list-style: none; */ /* DEMO */
 }
 
 ul > li {
@@ -45,14 +45,15 @@ ul > li a {
 
 }
 
-a:hover {
+/* a:hover {
   background-color: white;
-}
+} */ /* Demo */
 
 /* Float four columns side by side */
 .column {
   float: left;
-  width: 25%;
+  /* width: 25%; */ /* demo */
+  width: 50%;
   padding: 0 10px;
 
   margin-bottom: 20px;
